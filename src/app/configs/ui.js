@@ -1,8 +1,7 @@
 import images from "../images";
 
 const WISH_API_LINK = ""; // use mock api
-const cdnLink =
-  "/images/img1.jpg";
+const cdnLink = "/images";
 
 // common
 
@@ -31,7 +30,7 @@ const weddingInfo = [
       full: "Chủ nhật, Ngày 28 Tháng 11 năm 2026",
     },
     address: "Xóm Khôi Kỳ, xã Đại Từ, tỉnh Thái Nguyên",
-    
+
     phone: "0367 900 441",
     posision: "bottom left",
   },
@@ -71,8 +70,7 @@ const daysInMonth = [
 
 // invitation intro (first section)
 const introSection = {
-  mainImage:
-    "/images/img2",
+  mainImage: "/images/img2.jpg",
   brideFirstLetter: "H",
   groomFirstLetter: "B",
 };
@@ -86,14 +84,14 @@ const profileSection = {
     {
       title: "bride",
       name: "Nguyễn Thị Hoa",
-      avatar: `${cdnLink}/bride6`,
-      images: [`${cdnLink}/bride4`, `${cdnLink}/bride7`],
+      avatar: `${cdnLink}/bride6.jpg`,
+      images: [`${cdnLink}/bride4.jpg`, `${cdnLink}/bride7.jpg`],
     },
     {
       title: "groom",
       name: "Lê Thế Ban",
-      avatar: `${cdnLink}/groom2`,
-      images: [`${cdnLink}/groom3`, `${cdnLink}/groom1`],
+      avatar: `${cdnLink}/groom2.jpg`,
+      images: [`${cdnLink}/groom3.jpg`, `${cdnLink}/groom1.jpg`],
     },
   ],
 };
@@ -101,7 +99,7 @@ const profileSection = {
 // invitation section
 
 const invitationSection = {
-  imgs: [`${cdnLink}/e7`, `${cdnLink}/e4`, `${cdnLink}/e6`],
+  imgs: [`${cdnLink}/e7.jpg`, `${cdnLink}/e4.jpg`, `${cdnLink}/e6.jpg`],
   activeDay: 28,
 };
 
@@ -109,27 +107,26 @@ const invitationSection = {
 
 const albumSection = {
   images: [
-    `${cdnLink}/e1`,
-    `${cdnLink}/e3`,
-    `${cdnLink}/e4`,
-    `${cdnLink}/e5`,
-    `${cdnLink}/e7`,
-    `${cdnLink}/e8`,
+    `${cdnLink}/e1.jpg`,
+    `${cdnLink}/e3.jpg`,
+    `${cdnLink}/e4.jpg`,
+    `${cdnLink}/e5.jpg`,
+    `${cdnLink}/e7.jpg`,
+    `${cdnLink}/e8.jpg`,
   ],
 };
 
 // guestbook section
 
 const guestbookSection = {
-  image: `${cdnLink}/e5`,
+  image: `${cdnLink}/e5.jpg`,
   time: "12/12/2024",
 };
 
 // gift section
 
 const giftSection = {
-  image:
-    "/images/img1.jpg",
+  image: "/images/img1.jpg",
   brideBank: {
     name: "Nguyễn Thị Hoa",
     bankName: "Mbank ",
@@ -157,19 +154,19 @@ const timerSection = {
 
 const finalSection = {
   images: [
-    `${cdnLink}/final1`,
-    `${cdnLink}/final2`,
-    `${cdnLink}/final3`,
-    `${cdnLink}/final4`,
+    `${cdnLink}/final1.jpg`,
+    `${cdnLink}/final2.jpg`,
+    `${cdnLink}/final3.jpg`,
+    `${cdnLink}/final4.jpg`,
   ],
 };
 
 // Album Page
 
 const albumPage = {
-  topImage: `${cdnLink}/aland3`,
-  bottomImage: `${cdnLink}/aland2`,
-  mainImage: `${cdnLink}/e1`,
+  topImage: `${cdnLink}/aland3.jpg`,
+  bottomImage: `${cdnLink}/aland2.jpg`,
+  mainImage: `${cdnLink}/e1.jpg`,
 };
 
 const albumA = [
@@ -177,51 +174,47 @@ const albumA = [
     imgs: [
       {
         id: 1,
-        img: `${cdnLink}/e1`,
+        img: `${cdnLink}/e1.jpg`,
       },
-
       {
         id: 2,
-        img: `${cdnLink}/e4`,
+        img: `${cdnLink}/e4.jpg`,
       },
     ],
   },
-
   {
     imgs: [
       {
         id: 3,
-        img: `${cdnLink}/e3`,
+        img: `${cdnLink}/e3.jpg`,
       },
       {
         id: 4,
-        img: `${cdnLink}/e5`,
+        img: `${cdnLink}/e5.jpg`,
       },
     ],
   },
-
   {
     imgs: [
       {
         id: 5,
-        img: `${cdnLink}/e6`,
+        img: `${cdnLink}/e6.jpg`,
       },
       {
         id: 6,
-        img: `${cdnLink}/e7`,
+        img: `${cdnLink}/e7.jpg`,
       },
     ],
   },
-
   {
     imgs: [
       {
         id: 7,
-        img: `${cdnLink}/e8`,
+        img: `${cdnLink}/e8.jpg`,
       },
       {
         id: 8,
-        img: `${cdnLink}/groom3`,
+        img: `${cdnLink}/groom3.jpg`,
       },
     ],
   },
@@ -232,16 +225,15 @@ const albumB = [
     imgs: [
       {
         id: 9,
-        img: `${cdnLink}/e9`,
+        img: `${cdnLink}/e9.jpg`,
       },
     ],
   },
-
   {
     imgs: [
       {
         id: 10,
-        img: `${cdnLink}/e13`,
+        img: `${cdnLink}/e13.jpg`,
       },
     ],
   },
@@ -249,7 +241,7 @@ const albumB = [
     imgs: [
       {
         id: 11,
-        img: `${cdnLink}/e10`,
+        img: `${cdnLink}/e10.jpg`,
       },
     ],
   },
@@ -257,7 +249,7 @@ const albumB = [
     imgs: [
       {
         id: 12,
-        img: `${cdnLink}/e11`,
+        img: `${cdnLink}/e11.jpg`,
       },
     ],
   },
@@ -268,7 +260,7 @@ const albumC = [
     imgs: [
       {
         id: 13,
-        img: `${cdnLink}/e15`,
+        img: `${cdnLink}/e15.jpg`,
       },
     ],
   },
@@ -276,7 +268,7 @@ const albumC = [
     imgs: [
       {
         id: 14,
-        img: `${cdnLink}/e14`,
+        img: `${cdnLink}/e14.jpg`,
       },
     ],
   },
@@ -284,7 +276,7 @@ const albumC = [
     imgs: [
       {
         id: 15,
-        img: `${cdnLink}/e16`,
+        img: `${cdnLink}/e16.jpg`,
       },
     ],
   },
@@ -292,7 +284,7 @@ const albumC = [
     imgs: [
       {
         id: 16,
-        img: `${cdnLink}/e17`,
+        img: `${cdnLink}/e17.jpg`,
       },
     ],
   },
@@ -303,25 +295,19 @@ const albums = [...albumA, ...albumB, ...albumC]; // for preview
 const metaData = {
   main: {
     title: "Báo Hỉ Ban - Hoa | Kính Mời",
-    graphImage:
-      "/images/img3.jpg",
+    graphImage: "/images/img3.jpg",
   },
-
   wish: {
     title: "Tất cả lời chúc dành cho Ban - Hoa",
-    graphImage:
-      "/images/img4.jpg",
+    graphImage: "/images/img4.jpg",
   },
-
   invitation: {
     title: "Báo Hỉ | Form Nhập Tên",
-    graphImage:
-      "/images/img5.jpg",
+    graphImage: "/images/img5.jpg",
   },
   album: {
-    title: "Album của Ban - Hoa`",
-    graphImage:
-      "/images/img6.jpg",
+    title: "Album của Ban - Hoa",
+    graphImage: "/images/img6.jpg",
   },
 };
 
